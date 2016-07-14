@@ -19,11 +19,11 @@ Tumblr with a custom theme (HTML & CSS).
 
 1. **_design_assets**: contains logo .pxm files;
 2. **_includes/nav.ext**: main navigation on default layout (eg. on landing page);
-3. **_layouts**
-    /**country.html**: included in codeweek.eu/learn/%chosen_country_name%, “Note: This is an archive of main #codeEU events, which took place during the first Code Week from November 25 to 30, 2013. To add and view new events, please visit the new events website.”;
-    /**default.html**: included in all pages, contains #header (includes nav.ext) and #footer, page content is /index.html, included as {{content}};
-    /**header.html**: included in codeweek.eu/learn/%chosen_country_name%, “10th - 18th October • #codeEU“ + {% include nav.ext %};
-    /**page.html**: used on **RESOURCES**, **ABOUT** and **NEWS** pages; contains <section id="page-title"> and <section id="content"> page {{content}};
+3. **_layouts**  
+    /**country.html**: included in codeweek.eu/learn/%chosen_country_name%, “Note: This is an archive of main #codeEU events, which took place during the first Code Week from November 25 to 30, 2013. To add and view new events, please visit the new events website.”;  
+    /**default.html**: included in all pages, contains #header (includes nav.ext) and #footer, page content is /index.html, included as {{content}};  
+    /**header.html**: included in codeweek.eu/learn/%chosen_country_name%, “10th - 18th October • #codeEU“ + {% include nav.ext %};  
+    /**page.html**: used on **RESOURCES**, **ABOUT** and **NEWS** pages; contains <section id="page-title"> and <section id="content"> page {{content}};  
     /**post.html**: a modified version used on **NEWS** _(blog)_ page;  
     /**resource.html**: a modified version used on **RESOURCES** page;  
 4. **_posts**: old posts, most recent one from 10.02.2014;
